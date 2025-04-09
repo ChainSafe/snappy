@@ -1,0 +1,22 @@
+.{
+    .name = .snappy,
+    .version = "0.1.0",
+    .fingerprint = 0xcbfb5fb8aa1a809f,
+    .minimum_zig_version = "0.14.0",
+    .dependencies = .{},
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "snappy-sinksource.cc",
+        "snappy-sinksource.h",
+        "snappy-stubs-internal.cc",
+        "snappy-stubs-internal.h",
+        "snappy-stubs-public.h.in",
+        "snappy-internal.h",
+        "snappy.cc",
+        "snappy.h",
+        "snappy-c.cc",
+        "snappy-c.h",
+    },
+}
